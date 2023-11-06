@@ -1,0 +1,16 @@
+:root {
+  --red: #ff5959;
+  --orangey: turn hsl(39, 100%, 56%) to hex #ff9f1a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100vw;
+}

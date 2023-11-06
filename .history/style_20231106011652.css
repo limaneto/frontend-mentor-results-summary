@@ -1,0 +1,44 @@
+:root {
+  --red: #ff5959;
+  --orangey:	#ffb01f;
+  --green: #00bd91;
+  --blue: #1125d4;
+  --pale-blue: rgb(235, 241, 255);
+  --white: rgb(255, 255, 255);
+  --dark-gray-blue: #303b5a;
+  --lavender: #c8c7ff;
+  --g-slate-blue: #7857ff;
+  --g-royal-blue: #2e2be9;
+  --g-violet-blue: #4e21ca;
+  --g-persian-blue: #2421ca;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk', sans-serif;
+  src: url(./assets/fonts//HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 62.5%;
+  font-family: 'HankenGrotesk', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: 40%;
+  background-color: var(--g-slate-blue);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
